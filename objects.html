@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects Demo</title>
+    <script>
+        // a spaceship!
+        let spaceship = {
+            'Fuel Type': 'diesel', // hmm... maybe not a great spaceship...
+            color: 'silver',
+            numCrew: 42,
+            homePlanet: `Earth`,
+            flightPath: 'Mars',
+            'Active Mission': "Spread Fastism to the Galaxy"
+        };
+
+        let propName = null;
+
+        // let crewCount = spaceship.numCrew;
+        // let planetArray = spaceship.flightPath;
+        // console.log(crewCount, planetArray);
+        // create your object below this line:
+
+
+// Using isActive to access the Active Mission property
+        let isActive = spaceship['Active Mission'];
+        console.log(spaceship['Active Mission']);
+
+
+//returnAnyProp function        
+        let returnAnyProp = (objectName, propName) => objectName[propName];
+returnAnyProp(spaceship, 'isActive'); // Returns 'Earth'
+
+        propName = 'Active Mission';
+        console.log(spaceship[propName]);
+
+        // access the object properties in the space below this line:
+        console.log(spaceship['Fuel Type']);
+        console.log(spaceship.color); 
+        console.log(spaceship.numCrew);
+        console.log(spaceship.homePlanet); 
+        console.log(spaceship.flightPath); 
+        console.log(spaceship['Active Mission']); 
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
