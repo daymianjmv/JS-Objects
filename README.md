@@ -9,14 +9,14 @@
 ```javascript
 let spaceship = {}; // spaceship is an empty object
 ```
-### This data is organized into key###value pairs
+### This data is organized into key—value pairs
 ### A key’s value can be of any data type in the language
 * **Including functions**
 * Other objects
-### We make key###value pair by giving the key a name
+### We make key—value pair by giving the key a name
 * It may have spaces and special characters
 * It needs to be closed in quotation marks **“ ”**
-### Separate each key###value pair in an object literal with a comma , 
+### Separate each key—value pair in an object literal with a comma , 
 * Except for the last one
 * Don’t use a semicolon **;**
 ### **Keys are strings**
